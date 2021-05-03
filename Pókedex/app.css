@@ -48,16 +48,18 @@ img{
 }
 li{
     margin-top: 10px;
-    transition: 1s;
+    transition: 0.6s;
     border: none;
+    
 }
 
 
 
 li:hover {
+    border-radius: 60px;
     width: 170px;
     height: 170px;
-    background: skyblue;
+    background-image: linear-gradient(to top, #33F5FF, #16D1DB, #07888F);
     
   }
 
